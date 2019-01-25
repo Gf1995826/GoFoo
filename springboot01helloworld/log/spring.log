@@ -1,0 +1,19 @@
+2019-01-23 14:42:09.239  INFO 24713 --- [main] com.cienet.PersonTest                    : Starting PersonTest on gaofeng-OptiPlex-3020 with PID 24713 (started by gaofeng in /home/gaofeng/code/GoFoo/springboot01helloworld)
+2019-01-23 14:42:09.240 DEBUG 24713 --- [main] com.cienet.PersonTest                    : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2019-01-23 14:42:09.240  INFO 24713 --- [main] com.cienet.PersonTest                    : No active profile set, falling back to default profiles: default
+2019-01-23 14:42:09.272  INFO 24713 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@394df057: startup date [Wed Jan 23 14:42:09 CST 2019]; root of context hierarchy
+2019-01-23 14:42:10.388  INFO 24713 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@394df057: startup date [Wed Jan 23 14:42:09 CST 2019]; root of context hierarchy
+2019-01-23 14:42:10.436  INFO 24713 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.cienet.controller.HelloController.hello()
+2019-01-23 14:42:10.437  INFO 24713 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloman]}" onto public java.lang.String com.cienet.controller.HelloController.helloPerson()
+2019-01-23 14:42:10.439  INFO 24713 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-23 14:42:10.439  INFO 24713 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-23 14:42:10.461  INFO 24713 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-23 14:42:10.461  INFO 24713 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-23 14:42:10.499  INFO 24713 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-23 14:42:10.598  INFO 24713 --- [main] com.cienet.PersonTest                    : Started PersonTest in 1.626 seconds (JVM running for 2.14)
+2019-01-23 14:42:10.626 TRACE 24713 --- [main] com.cienet.PersonTest                    : This is a trace log
+2019-01-23 14:42:10.627 DEBUG 24713 --- [main] com.cienet.PersonTest                    : This is a debug log
+2019-01-23 14:42:10.627  INFO 24713 --- [main] com.cienet.PersonTest                    : This is a info log
+2019-01-23 14:42:10.627  WARN 24713 --- [main] com.cienet.PersonTest                    : This is a warn log
+2019-01-23 14:42:10.627 ERROR 24713 --- [main] com.cienet.PersonTest                    : This is a error log
+2019-01-23 14:42:10.637  INFO 24713 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@394df057: startup date [Wed Jan 23 14:42:09 CST 2019]; root of context hierarchy

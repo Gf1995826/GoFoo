@@ -1,0 +1,12 @@
+server:
+  8081
+
+person:
+  name: 小强
+  age: 18
+  birthday: 2017/8/7
+#  map: {k1:V1}
+  list: [l1,l2]
+  dog:
+    name: 小狗
+    age: 5

@@ -13,11 +13,25 @@
         <version>1.5.9.RELEASE</version>
     </parent>
     <dependencies>
+        <!--This is web started-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- It make spring start auto configure-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <!-- Add test starter-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
+
     <!--make this application to jar-->
     <build>
         <plugins>
